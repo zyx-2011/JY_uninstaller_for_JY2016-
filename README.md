@@ -1,4 +1,5 @@
-exe文件在
+exe文件在JY_Uninstaller_v2.8.2\x64\Debug下
+
 运行环境：需要VC运行库
 running environment：VC running library
 开发工具：Visual Studio 2022
