@@ -1,12 +1,12 @@
 echo off
 :start
-tasklist|findstr /i "JY_uninstaller_v2.8.1.exe"
+tasklist|findstr /i "JY_uninstaller_v2.8.2.exe"
 if %errorlevel%==0 (
-echo "ÕÒµ½£¡"
+echo "æ‰¾åˆ°ï¼"
 ) else (
-echo "ÎŞ·¨ÕÒµ½½ø³Ì£¬¿ÉÄÜÒÑ¾­±»½áÊø£¬ÕıÔÚ³¢ÊÔÖØÆô"
+echo "æ— æ³•æ‰¾åˆ°è¿›ç¨‹ï¼Œå¯èƒ½å·²ç»è¢«ç»“æŸï¼Œæ­£åœ¨å°è¯•é‡å¯"
 start Killed_msg.vbs
-start JY_uninstaller_v2.8.1.exe
+start JY_uninstaller_v2.8.2.exe
 exit
 )
 goto start
